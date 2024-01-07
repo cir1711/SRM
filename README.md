@@ -9,12 +9,16 @@ This is derived by observing that $p_i$ represents the a priori probability of o
 An alternative method for discriminating between a given ensemble of states is to employ the **square root measurement**. While this approach is not universally optimal, it has been demonstrated to perform quite well.
 
 The goal is to implement in MATLAB a method to calculate the Square Root Measurement using the results from [1], [2] and [link](https://www.egormaximenko.com/plots/KMS_eig.html) on the eigenvalues and eigenvectors of KMS matrices. Additionally, the calculation is performed for the case of circular matrices with values c (0 < c < 1), demonstrating that, as N tends to infinity, the solutions of the SRM of KMS coincide with the SRM of circular matrices.
+
+
 [1] Grenander, U., Szegő, G., & Kac, M. (1958). Toeplitz Forms And Their Applications.
+
 [2] Trench, W.F. (2010). Spectral decomposition of Kac-Murdock-Szego matrices.
 
 # KMS
 
 The Kac–Murdock–Szegö matrix (KMS) is defined as follows: 
+
 $$
 \begin{bmatrix}
 1       & p       & p^2    & \cdots & p^{n-1} \\ 
@@ -24,6 +28,7 @@ p^2     & p       & 1      & \ddots & \vdots  \\
 p^{n-1} & p^{n-2} & \cdots & p      & 1
 \end{bmatrix}
 $$
+
 When $0 < p < 1$, the KMS matrix is a real symmetric and positive definite Toepliz correlation matrix with many applications and very well known spectral properties. 
 
 # Circulant Matrix
