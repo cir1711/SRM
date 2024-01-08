@@ -41,11 +41,11 @@ Consequently, a circulant matrix C of size $n \times n$ can be expressed as foll
 
 $$
 \begin{bmatrix}
-1       & p       & p^2    & \cdots & p^{n-1} \\ 
-p       & 1       & p      & \cdots & p^{n-2} \\ 
-p^2     & p       & 1      & \ddots & \vdots  \\ 
-\vdots  & \vdots  & \ddots & \ddots & p       \\ 
-p^{n-1} & p^{n-2} & \cdots & p      & 1
+c_0     & c_{n-1} & c_{n-2} & \cdots & c_1} \\ 
+c_1     & c_0     & c_{n-1} & \cdots & c_2 \\ 
+c_2     & c_1     & c_0     & \ddots & \vdots    \\ 
+\vdots  & \vdots  & \ddots  & \ddots & c_{n-1}  \\ 
+c^{n-1} & c^{n-2} & \cdots  & c_1    & c_0
 \end{bmatrix}
 $$
 
